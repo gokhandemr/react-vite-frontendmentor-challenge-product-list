@@ -1,0 +1,13 @@
+.contactPage {
+    margin-top: 36px;
+    min-height: calc(90vh - (36px + 53px + 88px));
+}
+
+.contactPage h2 {
+    margin-bottom: 8px;
+}
+
+.contactPage p {
+    font-weight: 400;
+    line-height: 1.5em;
+}

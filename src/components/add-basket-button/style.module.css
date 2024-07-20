@@ -1,0 +1,28 @@
+.addBasketButton {
+    width: 160px;
+    height: 40px;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -20px auto 12px;
+    position: relative;
+    z-index: 10;
+    font-weight: 700;
+}
+
+
+.addBasketButton:before {
+    content: '';
+    background: url('../../images/icon-add-to-cart.svg') no-repeat center;
+    padding: 12px;
+    margin-right: 8px;
+}
+
+.addBasketButton:hover {
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(199, 58, 15, 1) 50%); */
+    text-decoration: underline;
+    border-color: rgba(199, 58, 15, 1);
+}

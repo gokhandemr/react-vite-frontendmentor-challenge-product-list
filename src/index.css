@@ -1,0 +1,83 @@
+.asdasd {
+  color: hsl(14, 86%, 42%);
+  color: hsl(159, 69%, 38%);
+  color: hsl(13, 31%, 94%);
+  color: hsl(14, 25%, 72%);
+  color: hsl(20, 50%, 98%);
+  color: hsl(7, 20%, 60%);
+  color: hsl(12, 20%, 44%);
+  color: hsl(14, 65%, 9%)
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+
+a {
+  color: black;
+}
+
+body {
+  background-color: hsl(20, 50%, 98%);
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  color: black;
+}
+
+#root {
+  width: calc(1440px - 224px);
+  display: flex;
+  justify-content: space-between;
+  margin: 88px auto;
+  flex-wrap: wrap;
+}
+
+.left-block {
+  width: 800px;
+}
+
+.right-block {
+  width: 386px;
+}
+
+header nav .active {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px) {
+  #root {
+    width: 100%;
+    margin: 25px auto;
+    padding: 0 25px;
+  }
+
+  .left-block {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .right-block {
+    width: 100%;
+  }
+}

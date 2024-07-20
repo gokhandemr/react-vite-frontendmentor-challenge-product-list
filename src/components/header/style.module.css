@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+}
+
+.headerNav a {
+    font-size: 14px;
+    margin: 0 5px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 425px) {
+    .header {
+        justify-content: center;
+
+    }
+
+    .headerNav {
+        margin: 24px 0 48px 0
+    }
+
+    .headerNav a {
+        margin: 0 12px
+    }
+}
