@@ -4,7 +4,7 @@
 
 Selamlar, bu projeyi Vite + React kullanarak, frontendmentor.io sitesinde yer alan [_"Product list with cart"_](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d) teması ile hazırladım.
 
-Demo: https://react-vite-frontendmentor-challenge-product-list.vercel.app/
+Demo: https://react-vite-frontendmentor-challenge-product-list-app.vercel.app/
 
 ---
 
